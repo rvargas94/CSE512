@@ -1,0 +1,56 @@
+Homework 1 
+CSE 512 Intro to AI
+Richard Vargas and Heidy Ramirez 
+
+(1) x = 55
+
+(2) range(1,21)
+
+(3) range(2,21,2)
+
+(4) for x in range(10)
+		print random.randint(1,100)
+
+(5)	"import some_module" will import the whole module,
+	where functions will need to be called explicitly 
+	with dot notation.
+	
+	"from some_module import *" is considered bad practice,
+	and instead specific modules should be imported.
+	
+	However, these two will perform the same action by pulling
+	functions in, assuming all functions have unique names.
+	
+(6)	The comma at the end of print statement will concatenate the
+	string onto the same line, without the comma each print statement
+	is printed onto a new line.
+	
+(7)	(0,0) is located in the bottom left hand corner.
+
+(8) The first block of code has no comma, so if x is an even number
+	even and number will appear on seperate lines.  In the second block
+	the words even and number will appear on the same line.
+
+(9) 
+	#defining a class Book
+	class Book:
+	
+		def __init__(self,title,year,pages):
+			self.bookTitle(title)
+			self.yearOfPublication(year)
+			self.numberOfPages(pages)
+		def getBookTitle(self):
+			return self.bookTitle;
+			
+	#to get variable from class Book
+	eggsandham = Book("Green Eggs and Ham",1960,72)
+	
+	eggsTitle = eggsandham.getBookTitle()
+	
+(10)The purpose of the line is to declare a start label for
+	the program.  This is equivalent to int main() in C++
+	
+	There is no difference in execution, however having the label
+	of main will allow scripts to be included elsewhere in
+	other programs or other scripts.
+	
